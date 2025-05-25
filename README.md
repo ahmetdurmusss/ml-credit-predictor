@@ -1,43 +1,37 @@
-# Credit Score Classification
+# Credit Score Data Analysis
 
-This repository contains a machine learning pipeline for analyzing and classifying credit scores based on demographic and financial data. The project uses a CSV dataset (`train.csv`) and builds a predictive model using scikit-learn.
+This repository contains a machine learning pipeline for analyzing and classifying credit scores using demographic and financial features.
 
-## 📂 Project Structure
+## 📁 Repository Contents
 
-```
-├── train.py              # Main Python script converted from the original notebook
-├── train.csv             # Dataset used for training
-```
+- `train.ipynb`: The original Jupyter Notebook used for data preprocessing, visualization, and model training.
+- `Credit-Score-Data.zip`: Zipped dataset used in the analysis.
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### Prerequisites
-
-Make sure you have Python 3.8 or higher installed.
-
-### Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Project
+### 2. Launch the Notebook
+
+Open the notebook in Jupyter or any compatible IDE:
 
 ```bash
-python train.py
+jupyter notebook train.ipynb
 ```
 
-This will execute the full pipeline including data preprocessing, visualization, and model training.
+## 📊 Dataset Description
 
-## 📊 Dataset
+The dataset includes customer information such as age, income, occupation, and other financial attributes. The goal is to predict the credit score class (e.g., Poor, Standard, Good).
 
-- `train.csv`: Contains user demographic and financial features along with credit score labels (e.g., Poor, Standard, Good).
+## 🛠️ Technologies Used
 
-## 📈 Visualizations
-
-The script includes visualization using Plotly to explore the distribution of credit scores across occupations.
-
-## 🧠 Models
-
-The project uses machine learning models from `scikit-learn` to classify credit scores. Preprocessing steps may include encoding, scaling, and data splitting.
+- **Python 3.x**
+- **Pandas**
+- **NumPy**
+- **Plotly**
+- **Scikit-learn**
 
