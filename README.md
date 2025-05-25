@@ -41,10 +41,3 @@ The script includes visualization using Plotly to explore the distribution of cr
 
 The project uses machine learning models from `scikit-learn` to classify credit scores. Preprocessing steps may include encoding, scaling, and data splitting.
 
-## 📃 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙌 Acknowledgements
-
-This repository was generated with the help of OpenAI's GPT-based assistant.# ml-credit-predictor
